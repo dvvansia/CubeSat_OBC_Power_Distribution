@@ -1,0 +1,24 @@
+# KiCAD temporary files
+*~
+*.bak
+*bak*
+#auto_saved_files#
+*_backup-*
+ Autosave-*
+
+# KiCAD cache files
+fp-info-cache
+sym-info-cache
+
+# KiCAD project local files (machine-specific)
+*.kicad_prl
+*.kicad_pro.local
+
+# PDF exports (keep source KiCAD files only)
+*.pdf
+
+# Lock files
+*.lck
+
+# Backup folders
+*-backups/

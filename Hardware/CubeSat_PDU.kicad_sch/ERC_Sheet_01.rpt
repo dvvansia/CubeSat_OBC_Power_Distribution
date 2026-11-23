@@ -1,0 +1,32 @@
+ERC report (2026-11-21T23:58:11+0100, Encoding UTF8)
+
+***** Sheet /
+[unannotated]: Item not annotated: C_SS?
+    ; error
+    @(6100 mils, 2750 mils): Symbol C_SS [C]
+
+***** Sheet /01_Input_Protection/
+[hier_label_mismatch]: Hierarchical label VBAT_SENSE has no matching sheet pin in the parent sheet
+    ; error
+    @(6700 mils, 4000 mils): Hierarchical Label 'VBAT_SENSE'
+[hier_label_mismatch]: Hierarchical label VBUS_FILT has no matching sheet pin in the parent sheet
+    ; error
+    @(8000 mils, 3650 mils): Hierarchical Label 'VBUS_FILT'
+[multiple_net_names]: Both VBUS_PROT and VBAT_SENSE are attached to the same items; VBUS_PROT will be used in the netlist
+    ; warning
+    @(6500 mils, 3800 mils): Label 'VBUS_PROT'
+    @(6700 mils, 4000 mils): Hierarchical Label 'VBAT_SENSE'
+
+***** Sheet /02_3V3_DIG_Regulator/
+
+***** Sheet /03_3V3_ANA_Regulator/
+
+***** Sheet /04_5V0_IO_Regulator/
+
+***** Sheet /05_3V3_MEM_Regulator/
+
+***** Sheet /06_Telemetry_Interface/
+
+***** Sheet /07_Control_Interface/
+
+ ** ERC messages: 4  Errors 3  Warnings 1
